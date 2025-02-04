@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        body{
+               
+            h1{
+                text-align:center;
+                background-color: #13aee2;
+            h2{
+                text-align: left;
+                text-overflow: ellipsis;
+            }
+            P{
+                font-size:medium;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            }
+        }
+            footer{
+                text-align: center;
+                margin: 20px;
+                padding: 10px;
+                background-color: #121111df;
+                color: white;
+            }
+            .Img{
+                background-image: url('bg-img.jpg');
+    }
+           
+        
+    </style>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="Famous Places-card">
+                <h1 class="main-heading">Simple ccbp-static-website</h1>
+                <a href><h2><u>Home</u></h2></a>
+                <a href><h2><u>About</u></h2></a>
+                <a href><h2><u>Contact</u></h2></a>
+                <p class="paragraph">Plan your trip.</p>
+                <p class="paragraph">Hello Hi every one this your jaswanth here we go your seeing my website.
+                    This website providing some famous places in every corner in the world.And this website 
+                    makes you every one can know about the detail of that famous places.and i hope once again 
+                    this website makes you every one satisfies.India, a country rich in its diverse culture and splendid traditions, is famous worldwide for its beautiful tourist destinations. 
+                    It is a land where history, nature, and modernity coexist in harmony, offering an array of tourist spots that cater to different tastes and interests.
+                    India, with its vast geographical and cultural diversity, offers a myriad of tourist destinations. Each region has its unique charm and attractions, promising an unforgettable experience to travelers. 
+                    The country’s rich heritage, vibrant traditions, and scenic beauty make it a must-visit destination on every traveler’s list.
+                    Indian History is full of the rise and fall of many kingdoms and empires. Monuments, built y the kings and they perform of every period throw light on the past history of India.
+                    these monuments exhibit the glory of India and are part of our cultural heritage. Almost all states of India boast of some or the other important historical monuments.
+                    Thousands of tourists visit India to have a glimpse of its important historical places.
+                    Hyderabad is famous for its charming minarets Charminar. The city is often identified with the majestic Charminaar which stands at the center of the old city.
+                    It was built by Muhammad quil Shah. Charminar with its enormous size and majestic splendor attracts a number of visitors. 
+                    Hyderabad has many other famous monuments like Golkunda Fort, Purani Haveli Tombs of Qutub Shahi kings etc. 
+                    In British era too some important monuments were constructed. These monuments have their own important place in Indian history. India gate was constructed in the memory of those Indian soldiers who were killed in world war i. 
+                    gateway of India was built to commemorate the visit of the first ever British Monarch King George V and Queen Mary in 1911. There are a number of other monuments built by the British. 
+                    These are Rashtrapati Bhawan Parliament House Victoria Memorial.
+                </p><br>
+                <p class="paragraph">PLEASE VISIT MY WEBSITE</p>
+                CLICK DOWN<br>
+                <button class="button" onclick="display('sectionFavouritePlaces')">
+                    Get Started
+                </button>
+                <footer>
+                    &copy; 2025 The ccbp-static-website as been certified.
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Favourite Places</h1>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionCharminar')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Charminar</h1>
+                    <p class="favourite-place-card-description">
+                        Charminar is a 400-year-old Islamic monument built 
+                        by Sultan Muhammed Quli Qutb Shah in 1591 CE to commemorate the end of a plague.
+                    </p>
+                </div>
+                <img src="https://www.bing.com/th?id=OIP.Gj-r6SOANqXxbLS2ZodDVgHaKd&w=200&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"height=100" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGolcondaFortDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">GolcondaFort</h1>
+                    <p class="favourite-place-card-description">
+                        Golconda is a fortified citadel and ruined city located on the western outskirts of Hyderabad, Telangana, India.
+                    </p>
+                </div>
+                <img src="https://th.bing.com/th?id=OLC.DkCk62YmrYLVsQ480x360&w=212&h=140&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"height=100" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionShilparamam')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Shilparamam</h1>
+                    <p class="favourite-place-card-description">
+                        Shilparamam is a tourist spot in Hyderabad that showcases traditional arts and crafts by artisans from all over India.
+                    </p>
+                </div>
+                <img src="https://www.bing.com/th?id=OIP.7u5UpYSrQRqnoID7T9vfvgHaCx&w=293&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"height=100" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionKedarnath Temple')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Kedarnath Temple</h1>
+                    <p class="favourite-place-card-description">
+                        Kedarnath is a town and Nagar Panchayat in Rudraprayag district of Uttarakhand, India, known primarily for the Kedarnath Temple.
+                    </p>
+                </div>
+                <img src="https://www.bing.com/th?id=OIP.TaK3euvY5hHpSBr1GMlhPgHaFw&w=201&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"height=100" class="favourite-place-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    <div id="sectionCharminar">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://ts1.mm.bing.net/th?id=OIP.yJp9ffuQNAqiIhE7dr4VGQHaD6&pid=15.1" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://ts3.mm.bing.net/th?id=OIP.UWC0q1IACJ2SLrvap-NW1wHaE7&pid=15.1" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/OIP.MytczAazl6E-YvQPT4h_-QHaKn?w=124&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Charminar</h1>
+                    <p class="detailed-view-card-description">
+                        The Charminar (lit. 'four minarets') is a monument located in Hyderabad, Telangana, India. Constructed in 1591, the landmark is a symbol of Hyderabad and officially incorporated in the emblem of Telangana.[3] The Charminar's long history includes the existence of a mosque on its top floor for more than 425 years. While both historically and religiously significant, it is also known for its popular and busy local markets surrounding the structure, and has become one of the most frequented tourist attractions in Hyderabad..
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">back</button>
+        </div>
+    </div>
+    <div id="sectionGolcondafortDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="GolcondaforCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#GolcondafortCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#GolcondaforCarousel" data-slide-to="1"></li>
+                        <li data-target="#GolcondaforCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.bing.com/th?id=OIP.tx39sTpuRJqlZ2TssdXwbAHaEo&w=197&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th?id=OLC.0a6l8EE4LjMbGQ480x360&w=249&h=140&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.bing.com/th?id=OIP.mxD6rhR5FOxCjSKD2fRtVQHaEU&w=211&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#golcondafortCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#golcondafortCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">GolcondaFort</h1>
+                    <p class="detailed-view-card-description">
+                        Golconda is a fortified citadel and ruined city located on the western outskirts of Hyderabad, Telangana, India.[1][2] The fort was originally built by Kakatiya ruler Pratāparudra in the 11th century out of mud walls.[3] It was ceded to the Bahmani Kings from Musunuri Nayakas during the reign of the Bahmani Sultan Mohammed Shah I, during the first Bahmani-Vijayanagar War. Following the death of Sultan Mahmood Shah, the Sultanate disintegrated and Sultan Quli, who had been appointed as the Governor of Hyderabad by the Bahmani Kings, fortified the city and made it the capital of the Golconda Sultanate.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionShilparamam">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="Shilparamamcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#ShilparamamCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#ShilparamamCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://ts1.mm.bing.net/th?id=OIP.iDX80YVfUhvDLSKgy00JrQHaE8&pid=15.1" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://ts3.mm.bing.net/th?id=OIP.2DEiTEnUujOTkZKyKCVykgAAAA&pid=15.1" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#ShilparamamCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#ShilparamamCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Shilparamam</h1>
+                    <p class="detailed-view-card-description">
+                        Shilparamam is an arts and crafts village located in Madhapur, Hyderabad, Telangana, India.
+
+                        The village was conceived with an idea to create an environment for the preservation of traditional Indian crafts. There are ethnic festivals round the year.
+
+                        Shilparamam, a crafts village, conceived in the year 1992, is situated just about few kilometers from Hyderabad city. Sprawling over 65 acres (260,000 m2) of land in the hi-tech hub city of India, Shilparamam gives a scenic ambience of tradition and cultural heritage. 
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">back</button>
+        </div>
+    </div>
+    <div id="sectionKedarnathTemple">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">Detailed View</h1>
+            <div class="detailed-view-card-container">
+                <div id="KedarnathTempleCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#KedarnathTempleCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#KedarnathTempleCarousel" data-slide-to="1"></li>
+                        <li data-target="#KedarnathTempleCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.bing.com/th?id=OIP.qLG9p0RLOe4UWRGBXHj82QHaE8&w=233&h=150&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://ts4.mm.bing.net/th?id=OIP.cVBDXaf0g_BR6ZWjyO32ugHaEm&pid=15.1" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://th.bing.com/th/id/OIP.bN8z3vxTUOU189roFdo3VwHaKj?w=142&h=202&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#KedarnathTempleCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#KedarnathTempleCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Kedarnath Temple</h1>
+                    <p class="detailed-view-card-description">
+                        Kedarnath is a pilgrimage site or tirtha dedicated to the Hindu deity Shiva. It is one of the four pilgrimage spots that form a part of the Uttarkhand Char Dham yatra or Chota Char Dham yatra.[6] The temple's construction is credited to the Pandava brothers mentioned in the Mahabharata.[7][8] However, the Mahabharata does not mention any place called Kedarnath. One of the earliest references to Kedarnath occurs in the Skanda Purana (c. 7th-8th century), which names Kedara (Kedarnath) as the place where Shiva released the holy waters of Ganga from his matted hair, resulting in the formation of the Ganges River..
+                    </p>
+                    <p class="paragraph">Thanks for visiting my website...</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces')">back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

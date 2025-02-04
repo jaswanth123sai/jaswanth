@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('jaswanth_image.jpg');
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+         .logo{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 40px solid;
+            border-right-color: #4385f6;
+            border-left-color: #fbbc05;
+            border-bottom-color: #34ab56;
+            border-top-color: #ec4336;
+            position: relative;
+
+         }
+         .logo::before{
+            position: absolute;
+            content: "";
+            top: -150px;
+            right: -150px;
+            border: 110px solid transparent;
+            border-bottom-color: white;
+         }
+         .logo::after{
+            position: absolute;
+            content: "";
+            top: 50%;
+            right: -44.20px;
+            width: 110px;
+            height: 40px;
+            background-color: #4385f6;
+            border-bottom-right-radius: 15px;
+            transform: translate(-5px, -20px);
+         }
+    </style>
+</head>
+<body>
+    <div class="logo">
+
+    </div>
+    
+</body>
+</html>
